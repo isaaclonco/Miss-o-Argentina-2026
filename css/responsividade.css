@@ -1,0 +1,105 @@
+@media screen and (max-width: 900px){
+    header .menu_desktop, header .btn_contato{
+        display: none;
+    }
+
+    .txt_hero_missoes h1 {
+        position: fixed;
+        bottom: -116px;
+        left: 0px;
+        font-size: 90px;
+        background: linear-gradient(90deg, #00ccff, transparent);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+        z-index: 1000;
+      }
+      
+      .txt_hero h1 {
+        font-size: 2.6em;
+        line-height: 36px;
+      }
+      
+      .hero_site .txt_hero h3 {
+        font-size: 15px;
+        line-height: 70px;
+      }
+      
+      
+      .txt_hero p {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 500;
+        color: #cacaca;
+        margin: 20px 0;
+      }
+
+}
+
+@media screen and (max-width: 1440px){
+
+    section.hero_site {
+      height: 110vh;
+    }
+
+    .txt_hero_missoes h1 {
+        bottom: -70px;
+        font-size: 180px;
+      }
+
+      section.hero_sitep2 .aviao{
+        padding-left: 55%;
+        padding-top: -12%;
+      }
+      section.hero_sitep2 .aviao img{
+        width: 130px;
+        height: auto; 
+      }
+      
+      
+      section.hero_sitep2 .bussula{
+        padding-left: 23%;
+        padding-top: 14%;
+      }
+
+      section.hero_sitep2 .bussula img{
+        width: 200px;
+        height: auto; 
+      }
+      
+      section.hero_sitep2 .txt_itens{
+        line-height: 35px;
+        padding-left: 114px;
+      }
+
+      section.hero_sitep3 .txt_itens_3{
+        padding-left: 115px;
+      }
+
+      section.hero_sitep3 {
+        height: 110vh;
+      }
+
+      section.hero_sitep2 {
+        padding: 80px 0;
+        height: 110vh;
+      }
+
+      .patrocinio_logo {
+        left: 110px; 
+      }
+      .patrocinio_logo img {
+        width: 300px;
+        height: auto;
+      }
+
+      section.hero_sitep3 .text_argentina_gr{
+        right: -100px; 
+        bottom: -250px; 
+        font-size: 150px;
+      }
+
+      .hero_site .txt_hero h3 {
+        margin-bottom: -100px;
+      }
+}
